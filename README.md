@@ -5,14 +5,14 @@ Clean separation of concerns across logic, UI, and data layers.Optimized Cart En
 
 🏗 Project Structure The project follows a strictly modular directory structure to ensure scalability and maintainability:
 src/
-├── assets/          # Static files (images, fonts, icons)
-├── constants/       # Theme colors, API endpoints, and configuration
-├── hooks/           # Custom React hooks (Logic & API wrappers)
-├── navigation/      # Navigation stacks and route configurations
-├── redux/           # Global state management and persistence logic
-├── screens/         # UI Screen components (divided into sub-components)
-├── services/        # API calls and external integrations (Axios)
-└── styles/          # Global styles and layout utilities
+├── assets/          
+├── constants/       
+├── hooks/           
+├── navigation/      
+├── redux/           
+├── screens/         
+├── services/        
+└── styles/          
 
 🛠 Technical Stack & Decisions
 Data Fetching & Hooks
